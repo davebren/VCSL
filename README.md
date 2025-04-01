@@ -1,3 +1,15 @@
+## Fork notes:
+This is a fork of the VCSL sample repository with all note files for each instrument where appropriate. This may be useful for projects where creating or embedding an entire sample player is inapproptiate.
+
+The note files are generated using the VCSL samples and are located in the all-notes-output directory on the all-notes branch.
+
+Currently this includes a set of wave files and a set of 5 second 128k mp3 files.
+
+Code used to generate files:
+https://github.com/davebren/passive-pitch/blob/main/lesson-generator/src/main/kotlin/SfzSampleNoteGenerator.kt
+
+
+## Original Readme:
 # VCSL
 ![logo](https://github.com/sgossner/VCSL/raw/master/Assets/VCSL_Color_128x128.png "VCSL Logo")
 
